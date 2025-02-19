@@ -1,6 +1,8 @@
 $(function () {
     $('.text-center').textillate({
-        in: { effect: 'bounceIn', loop: true, sequence: true },
-        out: { effect: 'bounceOut', loop: true, sequence: true }
+        loop: true,
+        Sync: true,
+        in: { effect: "bounceIn",},
+        out:{ effect: "bounceOut",}
     });
 });
